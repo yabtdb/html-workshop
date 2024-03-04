@@ -11,6 +11,15 @@ body {
     max-width: 25em;
     max-height: 30em;
 }
+#photo2 {
+    max-width: 450px;
+    max-height: 600px;
+}
+#photo3 {
+    max-width: 300px;
+    max-height: 400px;
+
+}
 /* .-ga viitame elemenditele, millel on selline class */
 .container {
     display: flex;
@@ -34,6 +43,7 @@ body {
     align-items: center;
     background-color: #D9D9D9;
     padding: 5em 1.5em 1.5em;
+    text-align: center;
 }
 .icon {
     max-width: 10em;

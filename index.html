@@ -12,21 +12,29 @@
 
 <div class="container" style="padding: 1em">
     <div id="textBox">
-        <h1>Nimetus</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur eget lectus mi. Donec lorem magna,
-            elementum ac dui in, posuere pharetra odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Curabitur eget lectus mi. Donec lorem magna, elementum ac dui in, posuere pharetra odio.</p>
+        <h1>Forge of Empires</h1>
+        <p>Forge of Empires on veebipõhine strateegia mäng. See on loodud InnoGames'i poolt. See on tasuta saadaval ka Google Play Store'is ja App Store'is.</p>
     </div>
-    <img id="photo" src="images/img.png">
+    <img id="photo" src="images/Forge.png">
 </div>
 
 <!-- Lõbusad faktid -->
 
 <div class="container">
     <div class="card">
+        <img id="photo2" src="images/point.png">
         <!-- Tee see osa ise! -->
+        <br>
+        <h2>Kas teadsid, et...</h2>
+        <br>
+        <p>Forge pointe on võimalik saada iga tunni aja tagant, maksimaalselt 10 tükki. Neid saab kasutada Tech Tree's.</p>
     </div>
     <div class="card">
+        <img id="photo3" src="images/patrick.png">
+        <br>
+        <h2>Kas teadsid, et...</h2>
+        <br>
+        <p>Forge of Empire'is on väga palju erinevaid üritusi, igal kuul uus.</p>
         <!-- Tee see osa ise! -->
     </div>
     <div class="card">
@@ -37,9 +45,7 @@
 <!-- Video -->
 
 <div class="container" style="flex-flow: column">
-    <iframe id="video" src="https://www.youtube.com/embed/WLT7TDGzXGU?si=z5_UTSHfVFkCDm6X" title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OojEZ6z0K_E?si=faqy_LnjoIPq7ale" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <!-- max-width paneb ette piiri, et kui pikk võib tekst olla -->
     <p style="max-width: 55em">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a odio vel lorem congue
         facilisis. Praesent consequat leo arcu, in gravida erat fringilla in. Pellentesque dictum accumsan leo, in
@@ -54,7 +60,21 @@
         <!-- Tee see osa ise! -->
     </div>
 </div>
+<button id="üllatus"> Vajuta palun, palun</button>
+
+
 
 </body>
-    
+<script>
+    let button = document.getElementById("üllatus")
+    button.addEventListener("click", function(){
+        let body = document.body;
+        if(body.style.background == "white"){
+            body.style.background = "#D9D9D9"
+        } else{
+            body.style.background = "white";
+        }
+
+    });
+</script>
 </html>
